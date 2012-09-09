@@ -9,7 +9,7 @@ public class Karasu{
 	int char_x, char_y;
 	BufferedImage bimage1;
 
-	Karasu(BufferedImage b1){
+	public Karasu(BufferedImage b1){
 		bimage1 = b1;
 		syutsugen();
 	}
@@ -20,7 +20,7 @@ public class Karasu{
 
 	}
 
-	void draw(Graphics g, ImageObserver io){
+	public void draw(Graphics g, ImageObserver io){
 		g.drawImage(bimage1, char_x, char_y, io);
 		char_x = char_x - 4;
 		if(char_x < -48)
