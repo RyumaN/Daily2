@@ -1,4 +1,4 @@
-package Daily0910; //敵キャラ設定
+package Daily0911; //敵キャラ設定
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -51,7 +51,7 @@ public class Karasu{
 		}
 	}
 
-	public boolean isAtari(int x, int y){
+	boolean isAtari(int x, int y){
 
 		int ax1 = x + 12;
 		int ay1 = y + 12;
